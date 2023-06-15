@@ -1,0 +1,92 @@
+.mainContainer {
+  width: 100vw;
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.leftTopBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.logoSpan {
+  color: #30a2ff;
+}
+.centerTopBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+}
+.searchBar {
+  height: 33px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding-left: px; */
+  border: 1.5px solid rgb(214, 210, 210);
+  width: 200px;
+  padding-left: 10px;
+}
+.searchInput {
+  /* outline: none; */
+  border: none;
+  display: flex;
+}
+
+::placeholder {
+  font-size: 13px;
+  color: rgb(186, 182, 182);
+  letter-spacing: 1px;
+}
+input:focus {
+  outline: none;
+}
+.userImage {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.rightTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.userName {
+  font-size: 16px;
+  font-weight: 600;
+}
+.userDetails {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.userProff {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(121, 118, 118);
+}

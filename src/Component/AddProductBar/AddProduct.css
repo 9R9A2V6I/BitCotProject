@@ -1,0 +1,206 @@
+.addCartContainer {
+  display: flex;
+  /* justify-content:flex-start;
+  align-items: start; */
+  width: 80%;
+  flex-direction: column;
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  justify-content:flex-start;
+  align-items: start;
+  width: 80%;
+}
+.addCartHeadBox {
+  height: 22vh;
+  width: 100%;
+  border-bottom: 1px solid rgb(192, 190, 190);
+}
+
+.addCartHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  height: 40%;
+}
+.addCartHeadText {
+  font-size: 25px;
+  font-weight: 700;
+}
+.btnBar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.discardBtn {
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  border: 1.5px solid rgb(192, 190, 190);
+  border-radius: 5px;
+}
+.saveBtn {
+  width: 80px;
+  height: 30px;
+  background-color: #1278cb;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.detailsType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.detailsText {
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.basicContainer {
+  width: 95%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 50%;
+  border: 1px solid rgb(242, 241, 241);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+}
+.basicContainer2 {
+  width: 95%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  border: 1px solid rgb(242, 241, 241);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+}
+.headTextBasic {
+  font-size: 20px;
+  font-weight: 500;
+}
+.labelBasic {
+  font-size: 17px;
+  font-weight: 500;
+}
+.basicInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.labelBasic span {
+  color: red;
+}
+.productNameDetails {
+  height: 30px;
+  width: 85%;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1 solid rgb(242, 241, 241);
+  outline: none;
+}
+.productNameDetails2 {
+  height: 70px;
+  width: 85%;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1 solid rgb(242, 241, 241);
+  outline: none;
+}
+.organDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 20px;
+  width: 100%;
+}
+.productOrganDetails {
+  height: 30px;
+  width: 440px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1 solid rgb(242, 241, 241);
+  outline: none;
+}
+
+.variantPara {
+  font-size: 14px;
+  color: rgb(192, 190, 190);
+}
+
+.productvariantDetails {
+  height: 30px;
+  width: 280px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1 solid rgb(242, 241, 241);
+  outline: none;
+}
+.imageVarient {
+  margin-top: 10px;
+}
+
+.imgInputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 140px;
+  border: 2px dotted grey;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#inputImageProduct {
+  display: none;
+}
+
+#logoLabel {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#logoImage {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  /* Additional styling for the logo image */
+}
+.addMoreFileInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40px;
+  border: 2px dotted grey;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.addMoreFileInput h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.submitBtn {
+  background: rgb(103, 103, 188);
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.errorMessage {
+  font-size: 15px;
+  color: red;
+}

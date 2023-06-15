@@ -1,0 +1,39 @@
+.mainSidebarContainer {
+  width: 15vw;
+  height: 100vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.filters__chevron {
+  border-radius: 2px;
+  transition: all 2 linear;
+}
+
+.filters__chevron.rotate {
+  transform:rotate(180deg);
+}
+.dropHead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 500;
+  gap: 3px;
+}
+.dropData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dropDataTag{
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}

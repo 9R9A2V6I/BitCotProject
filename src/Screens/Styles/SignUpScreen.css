@@ -1,0 +1,121 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  letter-spacing: 1px;
+  background-color: #fff;
+}
+
+.login_form_container {
+  position: relative;
+  width: 400px;
+  height: 700px;
+  max-width: 400px;
+  max-height: 470px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.login_form {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  /* border-radius: 50px 5px; */
+  /* inset: px; */
+  padding: 10px 10px;
+  z-index: 2;
+  color: #000;
+}
+.logoSpan{
+  color: #30A2FF;
+}
+.logoPara{
+font-weight: 500;
+font-size: 13px;
+}
+.signUpTitle{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(176, 172, 172);
+}
+
+label{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.logoBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.input_group {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.input_text {
+  width: 95%;
+  height: 35px;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 20px;
+  padding-left: 15px;
+  color: #000;
+  border-radius: 5px;
+}
+::placeholder {
+  font-size: 15px;
+  color: rgb(83, 79, 79);
+  letter-spacing: 1px;
+}
+span{
+  color:red;
+}
+.fa {
+  font-size: 20px;
+}
+#login_button {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  transition: 1s;
+  margin-top: 20px;
+}
+#login_button a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  z-index: 3;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius:7px;
+  background-color: #0079FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
